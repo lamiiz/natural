@@ -1,0 +1,94 @@
+#fullbody {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+#head1 {
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+
+}
+
+#headdiv1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+
+#image1 {
+    background-image: url(images/image1.png);
+}
+
+#image2 {
+    background-image: url(images/image2.png);
+}
+
+#image3 {
+    background-image: url(images/image3.png);
+}
+
+#image4 {
+    background-image: url(images/image1.png);
+}
+
+#image1,
+#image2,
+#image3,
+#image4 {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#image3 {
+    position: relative;
+    top: -16px;
+}
+
+#head2 {
+    text-align: center;
+    padding: 61px;
+}
+
+#headdiv2 {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase
+}
+
+#head3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #1d2020;
+    margin-top: -36px;
+    padding: 61px;
+}
+
+#image4 {
+    margin-top: -16px
+}
+
+@media(max-width:450px) {
+    #head1 {
+        padding:0x;
+    }
+}
