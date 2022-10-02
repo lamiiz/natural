@@ -89,7 +89,7 @@
 
 @media(max-width:450px) {
     #head1 {
-        padding:0px;
+        padding:-10px;
     }
     
 }
