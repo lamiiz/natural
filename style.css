@@ -11,7 +11,7 @@
 #head1 {
     background: #313534;
     color: #fff;
-    padding: 20px;
+    padding: 15px;
 
 }
 
@@ -84,7 +84,7 @@
 }
 
 #image4 {
-    margin-top: -16px
+    margin-top: -16px;
 }
 
 @media(max-width:450px) {
